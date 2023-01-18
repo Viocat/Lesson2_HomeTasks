@@ -13,13 +13,13 @@
 
 // ----------- Task 3 -------------
 
-let salaries = {
+const salaries = {
     John: 100,
     Ann: 160,
     Pete: 130
   };
 
-  let sum =sumCalc(salaries.John, salaries.Ann, salaries.Pete);
+  const sum =sumCalc(salaries.John, salaries.Ann, salaries.Pete);
 
   console.log(sum);
 
